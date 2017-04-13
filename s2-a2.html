@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+hr.styleo {
+	border-top: 50px solid #A9A9A9;
+	width: 100%;
+}
+</style>
+<title>Insert and Delete</title>
+</head>
+<body>
+<hr class="styleo"> 
+  <form action="http://www.example.com/review.php" method="get"> 
+   <fieldset> 
+    <legend>Your Details:</legend> 
+    <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br /> 
+    <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br /> 
+   </fieldset><br /> 
+
+<fieldset> 
+    <legend>Your Review:</legend>
+    <p>How did you hear about us?&nbsp;<select>
+  <option value="Google">Google</option>
+  <option value="Yahoo">Yahoo</option></select></p>
+  <p>Would you visit again?</p>
+  <input type="radio" name="yes" id="yes" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" name="no" id="no" value="no">
+  <label for="no">No</label>
+  <input type="radio" name="maybe" id="maybe" value="maybe">
+  <label for="maybe">Maybe</label>
+<p>comments:</p>
+<textarea rows="4" cols="50">
+</textarea><br>  
+<input type="checkbox" name="buy" id="buy" value="email">
+  <label for="buy">Sign me up for email updates</label><br>
+  
+
+    <input type="submit" value="Submit review">
+  </form> 
+</body>
+</html>
